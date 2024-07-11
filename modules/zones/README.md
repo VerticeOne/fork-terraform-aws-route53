@@ -38,10 +38,10 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_primary_name_server"></a> [primary\_name\_server](#output\_primary\_name\_server) | The Route 53 name server that created the SOA record. |
 | <a name="output_route53_static_zone_name"></a> [route53\_static\_zone\_name](#output\_route53\_static\_zone\_name) | Name of Route53 zone created statically to avoid invalid count argument error when creating records and zones simmultaneously |
 | <a name="output_route53_zone_name"></a> [route53\_zone\_name](#output\_route53\_zone\_name) | Name of Route53 zone |
 | <a name="output_route53_zone_name_servers"></a> [route53\_zone\_name\_servers](#output\_route53\_zone\_name\_servers) | Name servers of Route53 zone |
+| <a name="output_route53_zone_primary_name_server"></a> [route53\_zone\_primary\_name\_server](#output\_route53\_zone\_primary\_name\_server) | The Route 53 name server that created the SOA record. |
 | <a name="output_route53_zone_zone_arn"></a> [route53\_zone\_zone\_arn](#output\_route53\_zone\_zone\_arn) | Zone ARN of Route53 zone |
 | <a name="output_route53_zone_zone_id"></a> [route53\_zone\_zone\_id](#output\_route53\_zone\_zone\_id) | Zone ID of Route53 zone |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
